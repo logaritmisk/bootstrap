@@ -1,0 +1,7 @@
+name = Devel
+description = Devel
+core = 7.x
+
+dependencies[] = dblog
+
+files[] = devel.profile
