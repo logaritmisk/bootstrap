@@ -1,0 +1,5 @@
+name = Bootstrap
+description = "Bootstrap profile."
+core = 7.x
+
+files[] = bootstrap.profile
