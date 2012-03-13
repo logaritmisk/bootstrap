@@ -3,3 +3,5 @@ description = "Bootstrap profile."
 core = 7.x
 
 files[] = bootstrap.profile
+
+dependencies[] = "admin_menu"
