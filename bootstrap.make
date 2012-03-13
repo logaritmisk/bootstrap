@@ -24,17 +24,17 @@ projects[entity][download][type] = git
 projects[entity][download][url] = http://git.drupal.org/project/entity.git
 projects[entity][download][revision] = 5d8d4fb2fba3dc7b1f1721bf55ad1f28111ed46e
 
-; Entity cache
-projects[entitycache][type] = module
-projects[entitycache][download][type] = git
-projects[entitycache][download][url] = http://git.drupal.org/project/entitycache.git
-projects[entitycache][download][revision] = 46e66eddd609620e15e15bd2a1717ae2c6a32bee
-
 ; Entity reference
 projects[entityreference][type] = module
 projects[entityreference][download][type] = git
 projects[entityreference][download][url] = http://git.drupal.org/project/entityreference.git
 projects[entityreference][download][revision] = a483eaf14150455b21843fc0c42ffc522ae05d9b
+
+; Entity cache
+projects[entitycache][type] = module
+projects[entitycache][download][type] = git
+projects[entitycache][download][url] = http://git.drupal.org/project/entitycache.git
+projects[entitycache][download][revision] = 46e66eddd609620e15e15bd2a1717ae2c6a32bee
 
 ; CTools
 projects[ctools][type] = module
@@ -78,6 +78,12 @@ projects[fences][download][type] = git
 projects[fences][download][url] = http://git.drupal.org/project/fences.git
 projects[fences][download][revision] = d5876b2e9a0b3d7890012a6f3445480392399d3b
 
+; Better Formats
+projects[better_formats][type] = module
+projects[better_formats][download][type] = git
+projects[better_formats][download][url] = http://git.drupal.org/project/better_formats.git
+projects[better_formats][download][revision] = 9106bcf3475eed59e5d4890bbd27d6f0ad1a6aa9
+
 ; Markdown
 projects[markdown][type] = module
 projects[markdown][download][type] = git
@@ -108,5 +114,11 @@ projects[lucid][download][revision] = 3292016ac502a13b94335ec1cd389e8513594b3b
 
 ; Patches
 
-; http://drupal.org/node/996696#comment-5434028
+; Support revisions in Entity API - http://drupal.org/node/996696#comment-5434028
 projects[entity][patch][] = http://drupal.org/files/entity-996696-revisions-31.patch
+
+; Add views support for providing a list of entities or bundles (views filtering, relationships, etc) - http://drupal.org/node/1253776#comment-5725934
+projects[entityreference][patch][] = http://drupal.org/files/1253776-150.patch
+
+; Allow per-field-instance configuration of allowed formats - http://drupal.org/node/1295248#comment-5592670
+projects[better_formats][patch][] = http://drupal.org/files/better_formats-1295248-58-perfield-states.patch
