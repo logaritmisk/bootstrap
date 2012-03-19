@@ -40,7 +40,7 @@ projects[entitycache][download][revision] = 46e66eddd609620e15e15bd2a1717ae2c6a3
 projects[ctools][type] = module
 projects[ctools][download][type] = git
 projects[ctools][download][url] = http://git.drupal.org/project/ctools.git
-projects[ctools][download][revision] = 827f719b44b7af4dc682edb604b4de7a747a99f4
+projects[ctools][download][revision] = c5e94816acfe21057e1167a151ec6e8309f03f0f
 
 ; Views
 projects[views][type] = module
@@ -52,7 +52,7 @@ projects[views][download][revision] = e7e9288db55145378eba2c675a5819ff73de6fd2
 projects[panels][type] = module
 projects[panels][download][type] = git
 projects[panels][download][url] = http://git.drupal.org/project/panels.git
-projects[panels][download][revision] = 6c7d715caf24ff8c1343b5e4240c2bb17a82fadf
+projects[panels][download][revision] = 0d3a102158498d1fa29b5c7ff9c18e7f431e3a3e
 
 ; Panels Everywhere
 projects[panels_everywhere][type] = module
@@ -64,7 +64,7 @@ projects[panels_everywhere][download][revision] = cf492ab07c3534213e3952f098ba36
 projects[semantic_panels][type] = module
 projects[semantic_panels][download][type] = git
 projects[semantic_panels][download][url] = http://git.drupal.org/sandbox/Logaritmisk/1094746.git
-projects[semantic_panels][download][revision] = 951b08784172072bb6ea2c070598d33e172357ee
+projects[semantic_panels][download][revision] = 2b1dc1fbc4619fa7e35132fed9a535dff5c2bc11
 
 ; Section
 projects[section][type] = module
@@ -90,18 +90,6 @@ projects[markdown][download][type] = git
 projects[markdown][download][url] = http://git.drupal.org/project/markdown.git
 projects[markdown][download][revision] = 7c955c27bb6f2b6a218f0b5ddf901ca4b989c057
 
-; Mongodb
-projects[mongodb][type] = module
-projects[mongodb][download][type] = git
-projects[mongodb][download][url] = http://git.drupal.org/project/mongodb.git
-projects[mongodb][download][revision] = 22171939ced43a3cc9c836686a9525d212018475
-
-; Git deploy
-projects[git_deploy][type] = module
-projects[git_deploy][download][type] = git
-projects[git_deploy][download][url] = http://git.drupal.org/project/git_deploy.git
-projects[git_deploy][download][revision] = dc1acda44481a2f64364e651b4957d7cf7219cc6
-
 
 ; Themes
 
@@ -114,8 +102,8 @@ projects[lucid][download][revision] = 3292016ac502a13b94335ec1cd389e8513594b3b
 
 ; Patches
 
-; Support revisions in Entity API - http://drupal.org/node/996696#comment-5434028
-projects[entity][patch][] = http://drupal.org/files/entity-996696-revisions-31.patch
+; Support revisions in Entity API - http://drupal.org/node/996696#comment-5725632
+projects[entity][patch][] = http://drupal.org/files/entity-996696-revisions-41.patch
 
 ; Add views support for providing a list of entities or bundles (views filtering, relationships, etc) - http://drupal.org/node/1253776#comment-5725934
 projects[entityreference][patch][] = http://drupal.org/files/1253776-150.patch
