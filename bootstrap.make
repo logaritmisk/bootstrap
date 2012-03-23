@@ -22,31 +22,31 @@ projects[admin_menu][download][revision] = 47da7dc58b399f0c1bd2ef9bedc7fbee5b012
 projects[entity][type] = module
 projects[entity][download][type] = git
 projects[entity][download][url] = http://git.drupal.org/project/entity.git
-projects[entity][download][revision] = 5d8d4fb2fba3dc7b1f1721bf55ad1f28111ed46e
+projects[entity][download][revision] = 70a69d34898e5b35f1b7735bae5a2c5f70e8a5f7
 
 ; Entity reference
 projects[entityreference][type] = module
 projects[entityreference][download][type] = git
 projects[entityreference][download][url] = http://git.drupal.org/project/entityreference.git
-projects[entityreference][download][revision] = a483eaf14150455b21843fc0c42ffc522ae05d9b
+projects[entityreference][download][revision] = 106276d81a11297e5565a938a08161315b8686f8
 
 ; Entity cache
 projects[entitycache][type] = module
 projects[entitycache][download][type] = git
 projects[entitycache][download][url] = http://git.drupal.org/project/entitycache.git
-projects[entitycache][download][revision] = 46e66eddd609620e15e15bd2a1717ae2c6a32bee
+projects[entitycache][download][revision] = e54545e2c65cb7b676daaec45b12ef3286a82f33
 
 ; CTools
 projects[ctools][type] = module
 projects[ctools][download][type] = git
 projects[ctools][download][url] = http://git.drupal.org/project/ctools.git
-projects[ctools][download][revision] = c5e94816acfe21057e1167a151ec6e8309f03f0f
+projects[ctools][download][revision] = 3ac9b41e2e9df4695190042558f3b264407bb34a
 
 ; Views
 projects[views][type] = module
 projects[views][download][type] = git
 projects[views][download][url] = http://git.drupal.org/project/views.git
-projects[views][download][revision] = e7e9288db55145378eba2c675a5819ff73de6fd2
+projects[views][download][revision] = bce64b08010e9f724bd7c21b09c2a31d6afbbd0a
 
 ; Panels
 projects[panels][type] = module
@@ -90,6 +90,21 @@ projects[markdown][download][type] = git
 projects[markdown][download][url] = http://git.drupal.org/project/markdown.git
 projects[markdown][download][revision] = 7c955c27bb6f2b6a218f0b5ddf901ca4b989c057
 
+; Redis
+projects[redis][type] = module
+projects[redis][download][type] = git
+projects[redis][download][url] = http://git.drupal.org/project/redis.git
+projects[redis][download][revision] = ac93addaae5b75ee7a82caa6f3a677fa82ccc6c2
+
+
+; Libraries
+
+; Predis
+libraries[predis][type] = get
+libraries[predis][download][type] = git
+libraries[predis][download][url] = https://github.com/nrk/predis.git
+libraries[predis][download][revision] = 7675bb040a49018e57e8787f08ceefe0ab6e803f
+
 
 ; Themes
 
@@ -97,7 +112,7 @@ projects[markdown][download][revision] = 7c955c27bb6f2b6a218f0b5ddf901ca4b989c05
 projects[lucid][type] = theme
 projects[lucid][download][type] = git
 projects[lucid][download][url] = http://git.drupal.org/project/lucid.git
-projects[lucid][download][revision] = 3292016ac502a13b94335ec1cd389e8513594b3b
+projects[lucid][download][revision] = c1ef79b4e4b58c79df40d705da84280461ed00c5
 
 
 ; Patches
