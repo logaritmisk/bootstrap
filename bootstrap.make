@@ -78,6 +78,12 @@ projects[fences][download][type] = git
 projects[fences][download][url] = http://git.drupal.org/project/fences.git
 projects[fences][download][revision] = d5876b2e9a0b3d7890012a6f3445480392399d3b
 
+; Style Guide
+projects[styleguide][type] = module
+projects[styleguide][download][type] = git
+projects[styleguide][download][url] = http://git.drupal.org/project/styleguide.git
+projects[styleguide][download][revision] = ebe1f9adbb28f9932ca2e24216e392fd5bac34d2
+
 ; Better Formats
 projects[better_formats][type] = module
 projects[better_formats][download][type] = git
@@ -125,3 +131,6 @@ projects[entityreference][patch][] = http://drupal.org/files/1253776-150.patch
 
 ; Allow per-field-instance configuration of allowed formats - http://drupal.org/node/1295248#comment-5592670
 projects[better_formats][patch][] = http://drupal.org/files/better_formats-1295248-58-perfield-states.patch
+
+; Use theme('status_messages') to display status messages - http://drupal.org/node/1095436
+projects[styleguide][patch][] = http://drupal.org/files/styleguide_use-theme-status-messages-to-display-status-messages-7.x-1095436-4.patch
