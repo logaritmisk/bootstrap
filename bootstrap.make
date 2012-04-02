@@ -134,3 +134,6 @@ projects[better_formats][patch][] = http://drupal.org/files/better_formats-12952
 
 ; Use theme('status_messages') to display status messages - http://drupal.org/node/1095436
 projects[styleguide][patch][] = http://drupal.org/files/styleguide_use-theme-status-messages-to-display-status-messages-7.x-1095436-4.patch
+
+; Strict warning in template.php - http://drupal.org/node/1512092
+projects[lucid][patch][] = http://drupal.org/files/strict_warning_template-x-0.patch
