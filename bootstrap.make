@@ -40,7 +40,7 @@ projects[entitycache][download][revision] = e54545e2c65cb7b676daaec45b12ef3286a8
 projects[ctools][type] = module
 projects[ctools][download][type] = git
 projects[ctools][download][url] = http://git.drupal.org/project/ctools.git
-projects[ctools][download][revision] = 3ac9b41e2e9df4695190042558f3b264407bb34a
+projects[ctools][download][revision] = 2082086472351e771bbbdf55872b394f8353accb
 
 ; Views
 projects[views][type] = module
