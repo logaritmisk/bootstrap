@@ -64,13 +64,13 @@ projects[panels_everywhere][download][revision] = cf492ab07c3534213e3952f098ba36
 projects[semantic_panels][type] = module
 projects[semantic_panels][download][type] = git
 projects[semantic_panels][download][url] = http://git.drupal.org/sandbox/Logaritmisk/1094746.git
-projects[semantic_panels][download][revision] = 2b1dc1fbc4619fa7e35132fed9a535dff5c2bc11
+projects[semantic_panels][download][revision] = cb575954fd5320b56d9bba35dc1a51ea59be0fa5
 
 ; Section
 projects[section][type] = module
 projects[section][download][type] = git
 projects[section][download][url] = http://git.drupal.org/project/section.git
-projects[section][download][revision] = ad4c60916138caab8bbf300cf3be338cc632d916
+projects[section][download][revision] = 36e7d58708b11d53d1c25377cdc555dd52ce4ddc
 
 ; Fences
 projects[fences][type] = module
