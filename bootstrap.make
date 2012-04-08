@@ -22,13 +22,13 @@ projects[admin_menu][download][revision] = 47da7dc58b399f0c1bd2ef9bedc7fbee5b012
 projects[entity][type] = module
 projects[entity][download][type] = git
 projects[entity][download][url] = http://git.drupal.org/project/entity.git
-projects[entity][download][revision] = 70a69d34898e5b35f1b7735bae5a2c5f70e8a5f7
+projects[entity][download][revision] = 683b0bec5ca98418d4b5e6f772d273949b4a2000
 
 ; Entity reference
 projects[entityreference][type] = module
 projects[entityreference][download][type] = git
 projects[entityreference][download][url] = http://git.drupal.org/project/entityreference.git
-projects[entityreference][download][revision] = 106276d81a11297e5565a938a08161315b8686f8
+projects[entityreference][download][revision] = 71b715588cc26e07feda08f6ad8e541ea08b90cc
 
 ; Entity cache
 projects[entitycache][type] = module
