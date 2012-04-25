@@ -16,13 +16,10 @@ core = 7.x
 projects[admin_menu][type] = module
 projects[admin_menu][download][type] = git
 projects[admin_menu][download][url] = http://git.drupal.org/project/admin_menu.git
-projects[admin_menu][download][revision] = 47da7dc58b399f0c1bd2ef9bedc7fbee5b0121c2
+projects[admin_menu][download][revision] = ce7472b46908c924f1709ba84cef1093a2452e95
 
 ; Entity API
-projects[entity][type] = module
-projects[entity][download][type] = git
-projects[entity][download][url] = http://git.drupal.org/project/entity.git
-projects[entity][download][revision] = 683b0bec5ca98418d4b5e6f772d273949b4a2000
+projects[entity][version] = 1.0-rc2
 
 ; Entity reference
 projects[entityreference][type] = module
@@ -59,18 +56,6 @@ projects[panels_everywhere][type] = module
 projects[panels_everywhere][download][type] = git
 projects[panels_everywhere][download][url] = http://git.drupal.org/project/panels_everywhere.git
 projects[panels_everywhere][download][revision] = cf492ab07c3534213e3952f098ba364e64be9ca2
-
-; Semantic Panels
-projects[semantic_panels][type] = module
-projects[semantic_panels][download][type] = git
-projects[semantic_panels][download][url] = http://git.drupal.org/sandbox/Logaritmisk/1094746.git
-projects[semantic_panels][download][revision] = cb575954fd5320b56d9bba35dc1a51ea59be0fa5
-
-; Section
-projects[section][type] = module
-projects[section][download][type] = git
-projects[section][download][url] = http://git.drupal.org/project/section.git
-projects[section][download][revision] = 36e7d58708b11d53d1c25377cdc555dd52ce4ddc
 
 ; Fences
 projects[fences][type] = module
@@ -122,9 +107,6 @@ projects[lucid][download][revision] = c1ef79b4e4b58c79df40d705da84280461ed00c5
 
 
 ; Patches
-
-; Support revisions in Entity API - http://drupal.org/node/996696#comment-5725632
-projects[entity][patch][] = http://drupal.org/files/entity-996696-revisions-41.patch
 
 ; Add views support for providing a list of entities or bundles (views filtering, relationships, etc) - http://drupal.org/node/1253776#comment-5725934
 projects[entityreference][patch][] = http://drupal.org/files/1253776-150.patch
