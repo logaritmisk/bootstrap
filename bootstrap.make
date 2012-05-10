@@ -27,10 +27,7 @@ projects[entity][version] = 1.0-rc2
 projects[entityreference][type] = module
 projects[entityreference][download][type] = git
 projects[entityreference][download][url] = http://git.drupal.org/project/entityreference.git
-projects[entityreference][download][revision] = 71b715588cc26e07feda08f6ad8e541ea08b90cc
-
-; Add views support for providing a list of entities or bundles (views filtering, relationships, etc) - http://drupal.org/node/1253776#comment-5725934
-projects[entityreference][patch][] = http://drupal.org/files/1253776-150.patch
+projects[entityreference][download][revision] = 099f8e94216bb24e0d30bce25d421427d2f389c9
 
 
 ; Entity cache
@@ -55,31 +52,25 @@ projects[views][download][revision] = bce64b08010e9f724bd7c21b09c2a31d6afbbd0a
 
 
 ; Panels
-projects[panels][type] = module
-projects[panels][download][type] = git
-projects[panels][download][url] = http://git.drupal.org/project/panels.git
-projects[panels][download][revision] = 0d3a102158498d1fa29b5c7ff9c18e7f431e3a3e
+projects[panels][version] = 3.2
 
 
 ; Panels Everywhere
 projects[panels_everywhere][type] = module
 projects[panels_everywhere][download][type] = git
 projects[panels_everywhere][download][url] = http://git.drupal.org/project/panels_everywhere.git
-projects[panels_everywhere][download][revision] = cf492ab07c3534213e3952f098ba364e64be9ca2
+projects[panels_everywhere][download][revision] = dac1387a7b92c1b5425eb23151250375d10bc0e9
 
 
 ; Fences
-projects[fences][type] = module
-projects[fences][download][type] = git
-projects[fences][download][url] = http://git.drupal.org/project/fences.git
-projects[fences][download][revision] = d5876b2e9a0b3d7890012a6f3445480392399d3b
+projects[fences][version] = 1.0
 
 
 ; Style Guide
 projects[styleguide][type] = module
 projects[styleguide][download][type] = git
 projects[styleguide][download][url] = http://git.drupal.org/project/styleguide.git
-projects[styleguide][download][revision] = ebe1f9adbb28f9932ca2e24216e392fd5bac34d2
+projects[styleguide][download][revision] = e353d9320f78efa99fbc938645b27982f87aab5d
 
 ; Use theme('status_messages') to display status messages - http://drupal.org/node/1095436
 projects[styleguide][patch][] = http://drupal.org/files/styleguide_use-theme-status-messages-to-display-status-messages-7.x-1095436-4.patch
@@ -103,10 +94,7 @@ projects[markdown][download][revision] = 7c955c27bb6f2b6a218f0b5ddf901ca4b989c05
 
 
 ; Redis
-projects[redis][type] = module
-projects[redis][download][type] = git
-projects[redis][download][url] = http://git.drupal.org/project/redis.git
-projects[redis][download][revision] = ac93addaae5b75ee7a82caa6f3a677fa82ccc6c2
+projects[redis][version] = 2.0-alpha9
 
 
 ; Features
@@ -124,7 +112,7 @@ projects[strongarm][version] = 2.0-rc1
 libraries[predis][type] = get
 libraries[predis][download][type] = git
 libraries[predis][download][url] = https://github.com/nrk/predis.git
-libraries[predis][download][revision] = 7675bb040a49018e57e8787f08ceefe0ab6e803f
+libraries[predis][download][revision] = b67dab9ab1bb1dffdca74ecd501a2aa062c25ae1
 
 
 
