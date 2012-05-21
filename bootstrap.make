@@ -13,10 +13,7 @@ core = 7.x
 ; Modules
 
 ; Administration menu
-projects[admin_menu][type] = module
-projects[admin_menu][download][type] = git
-projects[admin_menu][download][url] = http://git.drupal.org/project/admin_menu.git
-projects[admin_menu][download][revision] = ce7472b46908c924f1709ba84cef1093a2452e95
+projects[admin_menu][version] = 3.0-rc3
 
 
 ; Entity API
@@ -27,7 +24,7 @@ projects[entity][version] = 1.0-rc2
 projects[entityreference][type] = module
 projects[entityreference][download][type] = git
 projects[entityreference][download][url] = http://git.drupal.org/project/entityreference.git
-projects[entityreference][download][revision] = 099f8e94216bb24e0d30bce25d421427d2f389c9
+projects[entityreference][download][revision] = a2500a79776ca4c05000e38a48b188dd3c32cc98
 
 
 ; Entity cache
@@ -82,8 +79,8 @@ projects[better_formats][download][type] = git
 projects[better_formats][download][url] = http://git.drupal.org/project/better_formats.git
 projects[better_formats][download][revision] = 9106bcf3475eed59e5d4890bbd27d6f0ad1a6aa9
 
-; Allow per-field-instance configuration of allowed formats - http://drupal.org/node/1295248#comment-5592670
-projects[better_formats][patch][] = http://drupal.org/files/better_formats-1295248-58-perfield-states.patch
+; Allow per-field-instance configuration of allowed formats - http://drupal.org/node/1295248#comment-5755372
+projects[better_formats][patch][] = http://drupal.org/files/better_formats-1295248-65.patch
 
 
 ; Markdown
