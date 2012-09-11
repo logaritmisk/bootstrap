@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+drush make --no-core --contrib-destination=. bootstrap.make -y

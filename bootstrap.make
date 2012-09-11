@@ -1,11 +1,5 @@
-; API
-
-api = 2
-
-
-
 ; Core
-
+api = 2
 core = 7.x
 
 
@@ -35,17 +29,11 @@ projects[entitycache][download][revision] = e54545e2c65cb7b676daaec45b12ef3286a8
 
 
 ; CTools
-projects[ctools][type] = module
-projects[ctools][download][type] = git
-projects[ctools][download][url] = http://git.drupal.org/project/ctools.git
-projects[ctools][download][revision] = 2082086472351e771bbbdf55872b394f8353accb
+projects[ctools][version] = 1.2
 
 
 ; Views
-projects[views][type] = module
-projects[views][download][type] = git
-projects[views][download][url] = http://git.drupal.org/project/views.git
-projects[views][download][revision] = bce64b08010e9f724bd7c21b09c2a31d6afbbd0a
+projects[views][version] = 3.5
 
 
 ; Panels
@@ -95,11 +83,11 @@ projects[redis][version] = 2.0-alpha9
 
 
 ; Features
-projects[features][version] = 1.0-rc2
+projects[features][version] = 1.0
 
 
 ; Strongarm
-projects[strongarm][version] = 2.0-rc1
+projects[strongarm][version] = 2.0
 
 
 
@@ -110,16 +98,3 @@ libraries[predis][type] = get
 libraries[predis][download][type] = git
 libraries[predis][download][url] = https://github.com/nrk/predis.git
 libraries[predis][download][revision] = b67dab9ab1bb1dffdca74ecd501a2aa062c25ae1
-
-
-
-; Themes
-
-; Lucid
-projects[lucid][type] = theme
-projects[lucid][download][type] = git
-projects[lucid][download][url] = http://git.drupal.org/project/lucid.git
-projects[lucid][download][revision] = c1ef79b4e4b58c79df40d705da84280461ed00c5
-
-; Strict warning in template.php - http://drupal.org/node/1512092
-projects[lucid][patch][] = http://drupal.org/files/strict_warning_template-x-0.patch
