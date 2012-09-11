@@ -40,7 +40,7 @@ projects[views][version] = 3.5
 
 
 ; Panels
-projects[panels][version] = 3.2
+projects[panels][version] = 3.3
 
 
 ; Panels Everywhere
