@@ -84,6 +84,10 @@ projects[features][version] = 1.0
 projects[strongarm][version] = 2.0
 
 
+; Diff
+projects[diff][version] = 3.0-alpha1
+
+
 
 ; Libraries
 
