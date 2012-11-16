@@ -11,14 +11,14 @@ projects[admin_menu][version] = 3.0-rc3
 projects[entity][type] = module
 projects[entity][download][type] = git
 projects[entity][download][url] = http://git.drupal.org/project/entity.git
-projects[entity][download][revision] = e7b054ffe9eca11641204ef0c69c603ff6a03394
+projects[entity][download][revision] = 5731f741e3366889e95b5357f1f85b0acc51a9fe
 
 
 ; Entity reference
 projects[entityreference][type] = module
 projects[entityreference][download][type] = git
 projects[entityreference][download][url] = http://git.drupal.org/project/entityreference.git
-projects[entityreference][download][revision] = 0ee136101c683f5c05e8ad8a98722096abdef53b
+projects[entityreference][download][revision] = 5b1c289f347046c322f359e93b538f56d5cf0fef
 
 
 ; Entity cache
@@ -52,7 +52,7 @@ projects[fences][version] = 1.0
 projects[styleguide][type] = module
 projects[styleguide][download][type] = git
 projects[styleguide][download][url] = http://git.drupal.org/project/styleguide.git
-projects[styleguide][download][revision] = a71a1220b87b7221b7f52a3155e47ea177add7b2
+projects[styleguide][download][revision] = 6b11e765c984637ad8780d4efb63ccc1283bb557
 
 ; Use theme('status_messages') to display status messages - http://drupal.org/node/1095436
 projects[styleguide][patch][] = http://drupal.org/files/styleguide_use-theme-status-messages-to-display-status-messages-7.x-1095436-4.patch
