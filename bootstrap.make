@@ -3,9 +3,6 @@ api = 2
 core = 7.x
 
 
-
-; Modules
-
 ; Administration menu
 projects[admin_menu][version] = 3.0-rc3
 
@@ -72,12 +69,8 @@ projects[markdown][download][url] = http://git.drupal.org/project/markdown.git
 projects[markdown][download][revision] = 7c955c27bb6f2b6a218f0b5ddf901ca4b989c057
 
 
-; Redis
-projects[redis][version] = 2.0-alpha10
-
-
 ; Features
-projects[features][version] = 1.0
+projects[features][version] = 2.0-beta1
 
 
 ; Strongarm
@@ -86,13 +79,3 @@ projects[strongarm][version] = 2.0
 
 ; Diff
 projects[diff][version] = 3.0-alpha1
-
-
-
-; Libraries
-
-; Predis
-libraries[predis][type] = get
-libraries[predis][download][type] = git
-libraries[predis][download][url] = https://github.com/nrk/predis.git
-libraries[predis][download][revision] = 5859578046f0375eac5df75e5dd514d44d38f4ae
