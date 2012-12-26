@@ -13,6 +13,9 @@ projects[entity][download][type] = git
 projects[entity][download][revision] = 6fd5aa2a678de549f6e6e674c2243bd73e63145e
 projects[entity][subdir] = contrib
 
+; entity_metadata_no_hook_node_access() should respect that the $node parameter can be a string or an object - http://drupal.org/node/1780646#comment-6813206
+projects[entity][patch][] = http://drupal.org/files/entity-node-access-1780646-8.patch
+
 
 ; Entity reference
 projects[entityreference][download][type] = git
