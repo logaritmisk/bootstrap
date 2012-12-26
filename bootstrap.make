@@ -10,13 +10,13 @@ projects[admin_menu][subdir] = contrib
 
 ; Entity API
 projects[entity][download][type] = git
-projects[entity][download][revision] = 5731f741e3366889e95b5357f1f85b0acc51a9fe
+projects[entity][download][revision] = 6fd5aa2a678de549f6e6e674c2243bd73e63145e
 projects[entity][subdir] = contrib
 
 
 ; Entity reference
 projects[entityreference][download][type] = git
-projects[entityreference][download][revision] = 5b1c289f347046c322f359e93b538f56d5cf0fef
+projects[entityreference][download][revision] = 759ea67ca09e2698dd700d2570d911214870def9
 projects[entityreference][subdir] = contrib
 
 
@@ -47,7 +47,7 @@ projects[fences][subdir] = contrib
 
 ; Style Guide
 projects[styleguide][download][type] = git
-projects[styleguide][download][revision] = 6b11e765c984637ad8780d4efb63ccc1283bb557
+projects[styleguide][download][revision] = d1550cdc48e9a5f28c84e7df1955e1129dcdd3f3
 projects[styleguide][subdir] = contrib
 
 ; Use theme('status_messages') to display status messages - http://drupal.org/node/1095436
